@@ -1,7 +1,15 @@
 # dcloudDNAC
 7 router topology for doing config templates and bulk device updates
 
-Either access the lab using VPN, or the jumphost via console
+The purpose of this lab and topology is to allow you to onboard the devices into DNAC, setup Sites, and validate how information is automatically configured for PNP and day 2 automation work flows. It also allows for multiple device roles (like a leaf and spine, although these are using c8k's as of today, so no evpn), to show how templates can be used to provision, with variables, multiple devices. 
+
+The use case being you want to configure a site with 2 spine and 2 leaf, or 2 distribution and 2 access. And you want to have "all devices get a loopback1, but only some devices get a loopback 2, and OSPF). Applying templates and composite templates, will allow this. 
+
+Either access the lab using VPN, or the jumphost via webRDP. From here you can access dnac via the browser, and the routers are setup in Putty. The credentials and IP of all devices are below.
+
+Happy labbing!
+
+
 
 <img width="680" alt="topo01" src="https://user-images.githubusercontent.com/32154829/209151375-8a36caf6-7101-436e-9384-7160bf6e5f46.png">
 
