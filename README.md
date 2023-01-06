@@ -3,6 +3,10 @@
 
 The best way to access this lab is either via WebRDP to the windows 10 station, from which you can access DNAC or Devices. Or Anyconnect to the lab. Either option is good. 
 
+To access windows 10 webRDP, click on the windows 10 device. on the left panel expand remote access, and clieck RDP
+
+![image](https://user-images.githubusercontent.com/32154829/211062866-9016c869-95de-4597-a281-c692fa313d91.png)
+
 The purpose of this lab and topology is to allow you to onboard the devices into DNAC, setup Sites, and validate how information is automatically configured for PNP and day 2 automation work flows. It also allows for multiple device roles (like a leaf and spine, although these are using c8k's as of today, so no evpn), to show how templates can be used to provision, with variables, multiple devices. 
 
 The use case being you want to configure a site with 2 spine and 2 leaf, or 2 distribution and 2 access. And you want to have "all devices get a loopback1, but only some devices get a loopback 2, and OSPF). Applying templates and composite templates, will allow this. 
