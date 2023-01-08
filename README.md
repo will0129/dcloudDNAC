@@ -13,6 +13,8 @@ The use case being you want to configure a site with 2 spine and 2 leaf, or 2 di
 
 Either access the lab using VPN, or the jumphost via webRDP. From here you can access dnac via the browser, and the routers are setup in Putty. The credentials and IP of all devices are below.
 
+Note at instantiation, only R1 is already added into DNAC, as is the credentials that will work w/ all devices. You can add the others manually or via doing scan. 
+
 Happy labbing!
 
 
